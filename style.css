@@ -1246,6 +1246,7 @@ direction:ltr !important;
 	.mu-header-featured-img,
 	.mu-header-featured-content {
 		width: 100%;
+		margin-top: 5%
 	}
 
 	.mu-menu ul li a {
@@ -1287,15 +1288,14 @@ direction:ltr !important;
 
 	.mu-video-iframe-area iframe {
 		height: 250px;
-	}
-
-				
+	}	
 	
 }
 
 
 @media (max-width: 360px){
 
+	
 	.mu-video-iframe-area {
 		padding: 15% 5%;
 	}
@@ -1312,9 +1312,5 @@ direction:ltr !important;
 	.mu-video-iframe-area {
 		padding: 30% 5%;
 	}
-	
-	
-	
-	
 }
 
