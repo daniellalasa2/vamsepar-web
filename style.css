@@ -854,8 +854,7 @@ direction:ltr !important;
 	color: #333;
 	background-color: #fff;
 	border-color: #ddd;
-	padding: 0;
-
+	padding: 20px 0;
 }
 
 .mu-faq-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
