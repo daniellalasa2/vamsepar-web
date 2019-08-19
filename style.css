@@ -26,14 +26,25 @@ Version: 1.0
 /*--------------------*/
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
-
+@font-face{
+	font-family: ShabnamMed;
+	src: url("assets/fonts/Shabnam-med.ttf")
+}
+@font-face{
+	font-family: ShabnamLight;
+	src: url("assets/fonts/Shabnam-light.ttf")
+}
+@font-face{
+	font-family: ShabnamBold;
+	src: url("assets/fonts/Shabnam-bold.ttf")
+}
 body,
 html {
 	overflow-x:hidden;
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'ShabnamMed';
 	font-size: 15px;
 	letter-spacing: 0.5px;
 	line-height: 1.5;
@@ -68,7 +79,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'ShabnamBold';
 	font-weight: 700;
 	margin-top: 0;
 }
