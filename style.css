@@ -358,6 +358,17 @@ button:focus {
     margin-right: 10px;
 }
 
+.mu-apple-btn img,
+.mu-google-btn img,
+.mu-windows-btn img {
+	display: block;
+    float: left;
+    font-size: 20px;
+    line-height: 24px;
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+}
 .mu-apple-btn span,
 .mu-google-btn span,
 .mu-windows-btn span {
